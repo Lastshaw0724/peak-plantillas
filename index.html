@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,29 +14,27 @@
             <h1>PEAK PERFORMANCE</h1>
             <img src="./bandeja1.jpg" alt="">
         </div>
-        <form action="/procesar_login" method="post"> <div class="formulario">
+        <br>
+        <br>
+        <form action="/peak-plantillas/paginamenu.html">
+            <div class="formulario">
                 <div class="input">
-                    <label for="id">Numero de Identificacion:</label>
-                    <input type="text" id="id" name="id"> </div>
+                    <label for="Email">Correo:</label>
+                    <input type="email" id="Email" name="Correo">
+                </div>
                 <div class="input">
-                    <label for="nombre">Usuario:</label>
-                    <input type="text" id="nombre" name="nombre"> </div>
-                <div class="input">
-                    <label for="apellido">Contraseña:</label>
-                    <input type="text" id="apellido" name="apellido"> </div>
-                <div class="input">
-                    <label for="rol">Rol:</label>
-                    <select id="roles" name="rol"> <option value="Cocinero">Cocinero</option>
-                        <option value="Mesero">Mesero</option>
-                        <option value="Administrador">Administrador</option>
-                    </select>
+                    <label for="Clave">Contraseña:</label>
+                    <input type="password" id="Clave" name="Contraseña">
                 </div>
             </div>
+            <br>
+            <br>
             <div class="botton">
-                <button type="button" class="olvido_contraseña">OLVIDE MI CONTRASEÑA</button> <button type="submit" class="login"> INGRESAR
-                </button>
+                <button type="button" class="olvido_contraseña">OLVIDE MI CONTRASEÑA</button>
+                <button type="submit" class="login"> INGRESAR</button>
             </div>
         </form>
     </div>
 </body>
+
 </html>

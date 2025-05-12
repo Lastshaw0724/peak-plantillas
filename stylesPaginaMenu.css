@@ -50,13 +50,18 @@ body {
   }
   
   .content .lista-menu {
-    list-style-type: disc; 
     padding-left: 20px;
-    text-align: left; 
+    text-align: left;   
   }
   
   .content .codigo-qr img {
     width: 150px; 
     height: auto;
     margin-top: 30px;
+  }
+
+  .buttons {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px;
   }
